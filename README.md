@@ -12,7 +12,7 @@ git clone https://github.com/yonatansabag/SE_HomeAssignment.git
 cd SE_HomeAssignment\se_ha
 ```
 
-2. Install requirments file
+2. Install requirements file
 ```bash
 pip install -r requirements.txt
 ```
