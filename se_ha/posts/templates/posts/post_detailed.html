@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <div>
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.body }}</p>
+    </div>
+
+    <div>
+        <h2>Comments</h2>
+        {% for comment in comments %}
+            <div>
+                <p>{{ comment.body }}</p>
+                <p>
+                    <strong>{{ comment.name }}</strong>
+                    ({{ comment.email }})
+                </p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <p><a href="{% url 'post_list' %}">Back to Posts</a></p>
+</body>
+</html>
