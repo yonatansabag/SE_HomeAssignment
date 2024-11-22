@@ -1,4 +1,4 @@
-# Home Assignment for Solar Edge
+# Home Assignment for SolarEdge
 
 
 ## Setup and Running the Project
