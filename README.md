@@ -8,7 +8,7 @@
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yonatansabag/SE_HomeAssignment
+git clone https://github.com/yonatansabag/SE_HomeAssignment.git
 cd se_ha
 ```
 
